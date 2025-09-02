@@ -30,25 +30,25 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav d-flex justify-content-between w-100">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <div class="form-check form-switch mt-2">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                            <label id="mode-btn" class="form-check-label" for="switchCheckDefault">Dark Mode</label>
+                        </div>
                     </li>
                 </ul>
-            </div>
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                <label id="mode-btn" class="form-check-label" for="switchCheckDefault">Dark Mode</label>
             </div>
         </div>
     </nav>
 
     <!-- Welcome Message -->
     <div class="d-flex justify-content-center text-align-center my-3">
-        Welcome to Text Utils where you can manipulate your text and use them for different purpose
+        <h1 style="color: #0dcaf0; text-decoration: underline;">Welcome to Text Utils</h1>
     </div>
 
     <!-- Alert Container -->
