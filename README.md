@@ -16,4 +16,4 @@ TextUtils is a simple text utility application that allows users to manipulate a
 - JavaScript
 
 ==> Link to github page
-https://a-srihari.github.io/TextUtils-React/
+https://a-srihari.github.io/Text-Utils/
